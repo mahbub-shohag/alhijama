@@ -1,0 +1,202 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Medicom a Medical Category Flat Bootstarp responsive Website Template | Gallery :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Medicom Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.0.min.js"></script>
+
+</head>
+<body>
+<!----start-header---->
+<div class="header" id="home">
+	  <div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo-3.png" alt=""></a>
+			</div>
+			<div class="menu">			
+			  <div class="top-menu navigation">
+				 <span class="menu"></span> 
+				 <ul class="navig">
+					 <li><a href="index.html">Home</a></li>
+					 <li><a href="about.html">About</a></li>
+					 <li><a href="blog.html">Blog</a></li>
+					 <li><a href="pages.html">Services</a></li>
+					 <li class="active"><a href="gallery.html">Gallery</a></li>
+					 <li><a href="contact.html">Contact</a></li>
+				 </ul>
+			  </div>
+			   <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(" ul.navig").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+			  <div class="search">
+					 <form>
+						<input type="text" value="" placeholder="Search...">
+						<input type="submit" value="">
+						</form>
+				</div>
+			</div>
+		  <div class="clearfix"></div>
+	 </div>	
+</div>
+<!----end-header---->
+	<!--light-box-files -->
+		<script src="js/jquery.chocolat.js"></script>
+		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8" />
+		<!--light-box-files -->
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.gallery-bottom a').Chocolat();
+		});
+		</script>
+	<!--gallery-starts--> 
+	<div class="gallery">
+		<div class="container">
+			<div class="gallery-top heading">
+				<h1>Our Gallery</h1>
+			</div>
+			<div class="gallery-bottom">
+				<div class="gallery-1">
+					<div class="col-md-3 gallery-left">
+						<a href="images/port-1.jpg">
+							<img class="lazyOwl" src="images/port-1.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/port-2.jpg">
+							<img class="lazyOwl" src="images/port-2.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/port-5.jpg">
+							<img class="lazyOwl" src="images/port-5.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/port-6.jpg">
+							<img class="lazyOwl" src="images/port-6.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="gallery-1">
+					<div class="col-md-3 gallery-left">
+						<a href="images/port-3.jpg">
+							<img class="lazyOwl" src="images/port-3.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/port-4.jpg">
+							<img class="lazyOwl" src="images/port-4.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/port-9.jpg">
+							<img class="lazyOwl" src="images/port-9.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/port-10.jpg">
+							<img class="lazyOwl" src="images/port-10.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="gallery-1">
+					<div class="col-md-3 gallery-left">
+						<a href="images/port-11.jpg">
+							<img class="lazyOwl" src="images/port-11.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/port-12.jpg">
+							<img class="lazyOwl" src="images/port-12.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/port-7.jpg">
+							<img class="lazyOwl" src="images/port-7.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-3 gallery-left">
+						<a href="images/port-8.jpg">
+							<img class="lazyOwl" src="images/port-8.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!----gallery-end---->
+	<!--footer-->
+<div class="footer">
+	  <div class="footer-grids">
+		  <div class="container">
+			  <div class="col-md-3 footer-grid">
+					<h4>Services</h4>
+					<ul>
+						<li><a href="#">Personal Homecare</a></li>
+						<li><a href="#">Sitter Services</a></li>
+						<li><a href="#">Household Services</a></li>
+						<li><a href="#">Respite Care</a></li>
+						<li><a href="#">Pediatric Care</a></li>
+					</ul>
+			  </div>
+			 <div class="col-md-3 footer-grid">
+					<h4>Information</h4>
+				   <ul>
+						<li><a href="#">Free Delivery</a></li>
+						<li><a href="#">Testimonals</a></li>
+						<li><a href="#">Archives</a></li>
+						<li><a href="#">Our Staff</a></li>
+				  </ul>
+			 </div>
+			 <div class="col-md-3 footer-grid">
+					<h4>More details</h4>
+					<ul>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="contact.html">Privacy Policy</a></li>
+						<li><a href="contact.html">Terms & Condition</a></li>
+						<li><a href="contact.html">Secure payment</a></li>
+						<li><a href="contact.html">Site map</a></li>
+					</ul>
+			 </div>
+			 <div class="col-md-3 footer-grid contact-grid">
+					<h4>Contact us</h4>
+					<ul>
+						<li><span class="c-icon"> </span>Newyork Still Road.</li>
+						<li><span class="c-icon1"> </span><a href="mailto:info@example.com">mail@example.com</a></li>
+						<li><span class="c-icon2"> </span>756 gt globel Place</li>
+					</ul>
+					<ul class="social-icons">
+						<li><a href="#"><span class="facebook"> </span></a></li>
+						<li><a href="#"><span class="twitter"> </span></a></li>
+						<li><a href="#"><span class="thumb"> </span></a></li>
+					</ul>
+			 </div>
+		 </div>
+	 </div>
+</div>
+<div class="copy">
+		 <p>Copyright &copy; 2015 Medicom. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+ </div>
+ <!--footer-->
+</body>
+</html>
